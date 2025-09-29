@@ -1,9 +1,9 @@
 package model;
 
 public class Node<T> {
-	T content;
-	Node<T> next;
-	Node<T> previous;
+	private T content;
+	private Node<T> next;
+	private Node<T> previous;
 
 	public Node(Node<T> previous, T content, Node<T> next) {
 		this.content = content;
