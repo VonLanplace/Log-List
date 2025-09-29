@@ -1,9 +1,9 @@
 package model;
 
 public class CircleList<T> {
-	int MAX_ELEMENTS;
-	Node<T> lastIn;
-	int size;
+	private int MAX_ELEMENTS;
+	private Node<T> lastIn;
+	private int size;
 
 	public CircleList(int maxElements) {
 		super();
